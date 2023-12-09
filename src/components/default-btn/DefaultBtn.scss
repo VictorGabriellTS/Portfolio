@@ -1,0 +1,22 @@
+.default-btn {
+    width: max-content;
+    min-width: 120px;
+    min-height: 40px;
+    padding: 8px 24px;
+    background-color: #9d3ee1;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px #00000046;
+    transition: all 200ms;
+}
+
+.default-btn:hover {
+    scale: 1.1;
+    background-color: #8937c4;
+}
+
+.default-btn:active {
+    transform: translateY(5px);
+    box-shadow: 0px 2px 7px #00000046;
+}

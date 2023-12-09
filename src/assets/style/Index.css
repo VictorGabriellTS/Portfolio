@@ -1,14 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 @font-face {
-    font-family: "MR";
-    src: url(../fonts/MinecraftRegular-Bmg3.otf)
+    font-family: "LB";
+    src: url(../fonts/Lovelo_Black.otf)
         format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "MT";
-    src: url(../fonts/MinecraftTen-VGORe.ttf)
-        format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -16,9 +11,11 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: MR;
+    font-family: Noto Sans;
     box-sizing: border-box;
     text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
 }
 
 *::-webkit-scrollbar {

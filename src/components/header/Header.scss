@@ -1,0 +1,73 @@
+.header {
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+
+    .page-links {
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+
+            li {
+                width: max-content;
+
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+
+                    .content {
+                        color: #000;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        transition: all 200ms;
+
+                        svg path {
+                            color: #000;
+                            transition: all 200ms;
+                        }
+
+                        span {
+                            width: 0px;
+                            height: 4px;
+                            background-color: #9d3ee1;
+                            transition: all 200ms;
+                        }
+                    }
+
+                    span {
+                        width: 0px;
+                        height: 3px;
+                        background-color: #9d3ee1;
+                        transition: all 250ms;
+                    }
+                }
+
+                a:hover {
+                    .content {
+                        color: #9d3ee1;
+
+                        svg path {
+                            color: #9d3ee1;
+                        }
+                    }
+
+                    span {
+                        width: 100%;
+                    }
+                }
+            }
+
+            li:hover {
+                span {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

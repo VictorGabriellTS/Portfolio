@@ -1,0 +1,13 @@
+.hm-btn-container {
+    .hm-btn {
+        width: 140px;
+        border: 2.5px solid transparent;
+        font-weight: bold;
+    }
+
+    .hm-btn:hover {
+        background-color: transparent;
+        color: #9d3ee1;
+        border: 2.5px solid #9d3ee1;
+    }
+}
