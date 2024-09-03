@@ -1,0 +1,47 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px;
+    background-color: #9d3ee185;
+    height: 460px;
+
+
+    .title {
+        text-align: center;
+
+        h3 {
+            font-size: 24px;
+            color: #000;
+            
+            span {
+                font-size: 24px;
+                color: #9d3ee1;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 80px;
+    
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 600px;
+
+            h4 {
+                color: #000;
+                font-size: 20px;
+            }
+
+            p {
+                color: #000;
+                font-size: 16px;
+            }
+        }
+    }
+}
